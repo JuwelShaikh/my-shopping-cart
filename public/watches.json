@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Rolex Submariner",
+      "image": "https://example.com/rolex_submariner.jpg",
+      "price": 8000
+    },
+    {
+      "id": 2,
+      "name": "Omega Speedmaster Professional",
+      "image": "https://example.com/omega_speedmaster.jpg",
+      "price": 6000
+    },
+    {
+      "id": 3,
+      "name": "Tag Heuer Carrera",
+      "image": "https://example.com/tag_heuer_carrera.jpg",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "name": "Seiko SKX007",
+      "image": "https://example.com/seiko_skx007.jpg",
+      "price": 300
+    },
+    {
+      "id": 5,
+      "name": "Casio G-Shock DW5600",
+      "image": "https://example.com/casio_gshock_dw5600.jpg",
+      "price": 100
+    },
+    {
+      "id": 6,
+      "name": "Patek Philippe Nautilus",
+      "image": "https://example.com/patek_philippe_nautilus.jpg",
+      "price": 30000
+    },
+    {
+      "id": 7,
+      "name": "Audemars Piguet Royal Oak",
+      "image": "https://example.com/audemars_piguet_royal_oak.jpg",
+      "price": 50000
+    },
+    {
+      "id": 8,
+      "name": "Breitling Navitimer",
+      "image": "https://example.com/breitling_navitimer.jpg",
+      "price": 7500
+    },
+    {
+      "id": 9,
+      "name": "Panerai Luminor Marina",
+      "image": "https://example.com/panerai_luminor_marina.jpg",
+      "price": 9000
+    },
+    {
+      "id": 10,
+      "name": "Tissot T-Touch",
+      "image": "https://example.com/tissot_ttouch.jpg",
+      "price": 1500
+    }
+  ]
+  
