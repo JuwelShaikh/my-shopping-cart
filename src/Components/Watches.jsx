@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Watch from "./Watch";
 
 
 const Watches = () => {
@@ -17,7 +18,10 @@ const Watches = () => {
             <h3>Watches available: {watches.length}</h3>
             <div>
                 {
-                    
+                    watches.map(watch => <Watch
+                        watch={watch}
+                        key={watch.id}
+                    />)
                 }
             </div>
         </div>
