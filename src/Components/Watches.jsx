@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Watch from "./Watch";
+import './watch.css'
 
 
 const Watches = () => {
@@ -16,7 +17,7 @@ const Watches = () => {
     return (
         <div>
             <h3>Watches available: {watches.length}</h3>
-            <div>
+            <div className="watches-container">
                 {
                     watches.map(watch => <Watch
                         watch={watch}
