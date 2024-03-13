@@ -8,20 +8,29 @@ const Watches = () => {
 
     const [watches, setWatches] = useState([]);
 
-    useEffect(()=>{
+    const [cart, setCart] = useState([]);
+
+    useEffect(() => {
         fetch('watches.json')
-        .then(res => res.json())
-        .then(data => setWatches(data))
-    },[]);
+            .then(res => res.json())
+            .then(data => setWatches(data))
+    }, []);
+
+    const handleCart = watch => {
+        const newCart = [...cart, watch]
+        setCart(newCart)
+    }
 
     return (
         <div>
             <h3>Watches available: {watches.length}</h3>
+            <h4>Cart: {cart.length}</h4>
             <div className="watches-container">
                 {
                     watches.map(watch => <Watch
                         watch={watch}
                         key={watch.id}
+                        handleCart={handleCart}
                     />)
                 }
             </div>
